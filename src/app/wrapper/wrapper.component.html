@@ -1,0 +1,12 @@
+<div class="form-group m-2 row">
+  <label  class="col-md-2 col-form-label" *ngIf="to.label">
+    {{ to.label }}
+  </label>
+  <div class="col-md-7">
+    <ng-template #fieldComponent></ng-template>
+    <!-- <formly-field [field]="field"></formly-field> -->
+  </div>
+  <!-- <div *ngIf="showError" class="col-sm-3 invalid-feedback d-block">
+    <formly-validation-message [field]="field"></formly-validation-message>
+  </div> -->
+</div>
